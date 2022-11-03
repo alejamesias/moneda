@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Link de estilos CSS-->
     <link rel="stylesheet" href="css/estilos.css">
-    <!--Link de icono moneda-->
-    <link rel="shortcut icon" href="img/moneda.jpg">
-    <!--Título-->
     <title>Cara o sello</title>
 </head>
 <body>
-
-    <div id="calular">
-      <div id="betMax"></div>
     <h1 id="titulo">Cara o Sello</h1>
-    <input type="text" name="" id="bet">
-    <button id="boton" onclick="lanzar()">CARA</button> <button id="boton1" onclick="lanzar1()">SELLO</button> <br><br>
-    <h1> <span id="span"> Lanza</span></h1><br><br>
+    <h2>Tu saldo es:</h2>
+    <div id="calular">
+    <div id="apuestaMaxima"></div>
+    <input type="text" name="" id="apuesta" placeholder="Cuanto quieres apostar?">
+    <br><br>
+    <button id="boton" onclick="cara()"></button> 
+    <button id="boton1" onclick="sello()"></button> 
+    <br><br>
+    <h1> <span id="span">Selecciona uno</span></h1><br><br>
     <span id="span2"> </span>
    </div>
-    <script type="text/javascript" src="js/caraosello.js"></script>
+    <script type="text/javascript" src="js/moneda.js"></script>
     
 </body>
 </html>

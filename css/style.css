@@ -1,0 +1,55 @@
+body{
+    
+}
+
+header{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.resultado{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.calcular{
+    
+    text-align: center;
+    
+
+}
+
+.opciones{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.opcion{
+    width: 80px;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+
+.opcion:hover{
+    background-color: rgb(97, 131, 136);
+    cursor: pointer;
+    border-radius: 80%;
+}
+
+.ganador{
+    color: rgb(55, 235, 11);
+    font-size: 25px;
+}
+
+.perdedor{
+    color: rgb(241, 12, 12);
+    font-size: 25px;
+
+}
+
+.empate{
+    color:rgb(20, 210, 235);
+    font-size: 25px;
+    
+}
